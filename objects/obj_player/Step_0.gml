@@ -4,10 +4,9 @@ leftkey = keyboard_check(ord("A"));
 upkey = keyboard_check(ord("W"));
 downkey = keyboard_check(ord("S"));
 
-dashkey = keyboard_check(vk_shift);
+
 
 //getting the x and y speeds
-dash_action_w = (dashkey - upkey) * dash;
 xspd = (rightkey - leftkey) * movespd;
 yspd = (downkey - upkey) * movespd;
 
