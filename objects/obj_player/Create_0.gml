@@ -1,5 +1,5 @@
-movespd =4;
+movespd =1.3;
 xspd = 0;
 yspd = 0;
 
-dash =8;
+dash =2.6;
