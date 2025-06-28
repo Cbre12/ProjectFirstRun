@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"person",
+  "%Name":"spr_wall",
   "bboxMode":0,
-  "bbox_bottom":29,
-  "bbox_left":1,
+  "bbox_bottom":31,
+  "bbox_left":0,
   "bbox_right":31,
-  "bbox_top":3,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7bde66f6-d07e-43c0-927e-ab6eaccbd8a9","name":"7bde66f6-d07e-43c0-927e-ab6eaccbd8a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c8577dbd-e158-4668-aef2-66f3c70fd149","name":"c8577dbd-e158-4668-aef2-66f3c70fd149","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"39c30c13-2ecb-48c7-8e8d-b007240aba9b","blendMode":0,"displayName":"default","isLocked":false,"name":"39c30c13-2ecb-48c7-8e8d-b007240aba9b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c06540ad-a7cb-44ca-b78e-92ac2414be7c","blendMode":0,"displayName":"default","isLocked":false,"name":"c06540ad-a7cb-44ca-b78e-92ac2414be7c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"person",
+  "name":"spr_wall",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"person",
+    "%Name":"spr_wall",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"person",
+    "name":"spr_wall",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7bde66f6-d07e-43c0-927e-ab6eaccbd8a9","path":"sprites/person/person.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b6c2f4a5-942a-4356-8801-24c7db30c98f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8577dbd-e158-4668-aef2-66f3c70fd149","path":"sprites/spr_wall/spr_wall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4ce61f6-4037-4dcf-aab5-780ae6928d1a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
