@@ -1,1 +1,0 @@
-initHealth(100);

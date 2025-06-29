@@ -1,27 +1,31 @@
 //get inputs
-rightkey = keyboard_check(ord("D"));
-leftkey = keyboard_check(ord("A"));
-upkey = keyboard_check(ord("W"));
-downkey = keyboard_check(ord("S"));
+var right = keyboard_check(ord("D"));
+var left  = keyboard_check(ord("A"));
+var up    = keyboard_check(ord("W"));
+var down  = keyboard_check(ord("S"));
 
 
 
-//getting the x and y speeds
-xspd = (rightkey - leftkey) * movespd;
-yspd = (downkey - upkey) * movespd;
+//movement, combined
+var hor  = (right - left);
+var vert = (down - up);
 
 
 //collisions
-if place_meeting(x + xspd, y, obj_wall)
+if place_meeting(x + hor, y, obj_wall)
 {
-    xspd = 0;
+    hor = 0;
 }
-if place_meeting(x, y + yspd, obj_wall)
+if place_meeting(x, y + vert, obj_wall)
 {
-    yspd = 0;
+    vert = 0;
 }
 
 
-//move the player
-x += xspd;
-y += yspd;
+//apply
+x += hor  * movespd;
+y += vert * movespd;
+
+	//flips players sprite to face correct direction
+	if (hor > 0) {image_xscale =  1;}
+	if (hor < 0) {image_xscale = -1;}
