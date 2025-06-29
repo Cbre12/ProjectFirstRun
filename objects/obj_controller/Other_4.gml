@@ -1,13 +1,13 @@
 randomize();
 
 
-// grab the possible horizontal/vertikal amount and store in the variable (round used if the room height/width is not fully dividable through 16)
+// grab the possible horizontal/vertical amount and store in the variable (round used if the room height/width is not fully dividable through 16)
 var getRoomWidth  = round(room_width/16);
 var getRoomHeight = round(room_height/16);
 
 
 
-// get the layer and tile id, which we want to use
+// get the layer and tile id
 var lay_id = layer_get_id("Tiles_1");
 var map_id = layer_tilemap_get_id(lay_id);
 
