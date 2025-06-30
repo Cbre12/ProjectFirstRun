@@ -29,3 +29,7 @@ y += vert * movespd;
 	//flips players sprite to face correct direction
 	if (hor > 0) {image_xscale =  1;}
 	if (hor < 0) {image_xscale = -1;}
+	
+///rotation code
+//var angle_to_mouse = point_direction(x, y, mouse_x, mouse_y)
+//image_angle = angle_to_mouse;

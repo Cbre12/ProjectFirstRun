@@ -2,4 +2,5 @@
 event_inherited();
 
 //set it's own speed
-walkspeed = .5;
+walkspeed = .3;
+hp        = 40;
