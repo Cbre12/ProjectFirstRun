@@ -1,0 +1,3 @@
+if (canFly == true){
+	move_towards_point(obj_player.x, obj_player.y, 2);
+}

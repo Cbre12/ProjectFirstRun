@@ -22,3 +22,13 @@ damage_fireball = 2;
 
 //cooldown timer
 attack_cooldown = 0;
+
+//collect radius
+collectRadius = 50;
+
+//xp system
+xp     = 0;
+//xpNext = 4;
+
+//gold stats
+gold = 0;

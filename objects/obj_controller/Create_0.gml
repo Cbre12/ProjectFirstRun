@@ -5,3 +5,9 @@ alarm[0] = alarmtime;
 //spawning
 alarmspawntime = 30;
 alarm[1] = alarmspawntime;
+
+//collecting
+alarmtime2 = 20;
+alarm[2] = alarmtime2;
+
+

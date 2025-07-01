@@ -1,3 +1,5 @@
+///@description update enemies
+
 with (obj_enemy_parent){
 
 //sets direction towards player
