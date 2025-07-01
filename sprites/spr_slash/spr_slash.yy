@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_slash",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":64,
-  "bbox_left":4,
+  "bbox_left":100,
   "bbox_right":113,
   "bbox_top":27,
   "collisionKind":1,

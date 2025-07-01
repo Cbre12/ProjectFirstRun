@@ -33,3 +33,27 @@ y += vert * movespd;
 ///rotation code
 //var angle_to_mouse = point_direction(x, y, mouse_x, mouse_y)
 //image_angle = angle_to_mouse;
+
+
+
+if (attack_cooldown > 0) {
+    attack_cooldown--;
+}
+
+// Check if player is holding mouse and ready to attack
+if (mouse_check_button(mb_left) && attack_cooldown <= 0) {
+    switch (slot[0]) {
+        case "slash":
+            event_user(0);
+            attack_cooldown = alarmtime[0];
+            break;
+        case "hammer":
+            event_user(1);
+            attack_cooldown = alarmtime[1];
+            break;
+        case "fireball":
+            event_user(2);
+            attack_cooldown = alarmtime[2];
+            break;
+    }
+}

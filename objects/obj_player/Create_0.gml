@@ -19,3 +19,6 @@ slot[2] = "";
 damage_slash    = 3;
 damage_hammer   = 1;
 damage_fireball = 2;
+
+//cooldown timer
+attack_cooldown = 0;
