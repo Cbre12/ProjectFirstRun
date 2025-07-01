@@ -10,4 +10,10 @@ alarm[1] = alarmspawntime;
 alarmtime2 = 20;
 alarm[2] = alarmtime2;
 
+//-------------------------SOUL METER-----------------------------------
+souls = 0;  //current souls
+souls_max = 100;
 
+var margin = 20;
+bar_width = display_get_gui_width() - (margin * 2); //fullwidth - margins
+bar_height = 15;

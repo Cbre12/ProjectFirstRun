@@ -1,6 +1,8 @@
 //xp system
 
 xp += 1;
+obj_controller.souls += 1;
+
 //if (xp>= xpNext){
 	//xp = 0;
 	//xpNext++;
@@ -22,7 +24,7 @@ xp += 1;
 		//a.destinationY = _vy + 35;
 		//a.image_alpha = 1;
 		//a.sprite_index = spr_upgrade_hammer;
-}
+
 
 
 
