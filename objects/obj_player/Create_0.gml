@@ -1,5 +1,5 @@
 movespd =1.3;
-
+initHealth(100);
 
 //how fast between events (cooldown)
 alarmtime[0] = 80;
