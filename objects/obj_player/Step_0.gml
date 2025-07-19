@@ -4,7 +4,8 @@ var left  = keyboard_check(ord("A"));
 var up    = keyboard_check(ord("W"));
 var down  = keyboard_check(ord("S"));
 
-
+//iframe decrese
+iframes -= 1;
 
 //movement, combined
 var hor  = (right - left);

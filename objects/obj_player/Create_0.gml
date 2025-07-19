@@ -1,5 +1,6 @@
 movespd =1.3;
 initHealth(100);
+iframes = 0;
 
 //how fast between events (cooldown)
 alarmtime[0] = 80;
