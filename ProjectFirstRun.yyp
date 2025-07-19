@@ -57,6 +57,7 @@
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"healthBar","path":"scripts/healthBar/healthBar.yy",},},
+    {"id":{"name":"Rift","path":"sprites/Rift/Rift.yy",},},
     {"id":{"name":"spr_attack_ball","path":"sprites/spr_attack_ball/spr_attack_ball.yy",},},
     {"id":{"name":"spr_boss_slime","path":"sprites/spr_boss_slime/spr_boss_slime.yy",},},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},},
