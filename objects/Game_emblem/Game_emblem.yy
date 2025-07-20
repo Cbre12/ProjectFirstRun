@@ -6,8 +6,8 @@
   "name":"Game_emblem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu_items",
-    "path":"folders/Objects/Menu_items.yy",
+    "name":"Start_items",
+    "path":"folders/Objects/Start_items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

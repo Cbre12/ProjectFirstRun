@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"Press_to_menu",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Press_to_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu_items",
-    "path":"folders/Objects/Menu_items.yy",
+    "name":"Start_items",
+    "path":"folders/Objects/Start_items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
